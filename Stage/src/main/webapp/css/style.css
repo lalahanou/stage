@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+div{
+/* border:1Px dotted gray; */
+padding:5px;
+margin:10px;
+}
+.table th{
+/*border:1Px dotted gray;*/
+padding:10px;
+margin:10px;
+background: rgb(240,240,240);
+}
+.table td{
+/*border:1Px dotted gray;*/
+padding:10px;
+margin:10px;
+background: white;
+}
+}
+body, p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+   
+}
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+fieldset {
+    padding: 10px;
+    border: 1px #0568CD solid;
+    margin: 10px;
+}
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+form input.sansLabel {
+    margin-left: 200px;
+}
